@@ -34,5 +34,5 @@ class Car:
     @classmethod
     def set_speed_measurement(cls, new_measurement):
         # modify class variable
-        cls.school_name = new_measurement
+        cls.speed_measurement = new_measurement
         return None
